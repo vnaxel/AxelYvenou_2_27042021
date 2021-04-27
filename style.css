@@ -218,10 +218,10 @@ a {
   left: 0px;
   width: 100%;
 }
-.hotels__main__item__contentWrap__wrapIcons i[data-active=true] {
+.hotels__main__item__contentWrap__wrapIcons i.active {
   color: #0065FC;
 }
-.hotels__main__item__contentWrap__wrapIcons i[data-active=false] {
+.hotels__main__item__contentWrap__wrapIcons i.inactive {
   color: #d9d9d9;
 }
 .hotels__main__link {
@@ -284,10 +284,10 @@ a {
   left: 0px;
   width: 100%;
 }
-.hotels__populaires__item__contentWrap__wrapIcons i[data-active=true] {
+.hotels__populaires__item__contentWrap__wrapIcons i.active {
   color: #0065FC;
 }
-.hotels__populaires__item__contentWrap__wrapIcons i[data-active=false] {
+.hotels__populaires__item__contentWrap__wrapIcons i.inactive {
   color: #d9d9d9;
 }
 
@@ -583,4 +583,3 @@ a {
   flex-direction: column;
 }
 
-/*# sourceMappingURL=style.css.map */
