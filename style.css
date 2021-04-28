@@ -116,17 +116,17 @@ a {
   transform: translateX(100%);
 }
 .search__filters__filter:hover .search__filters__filter__wrap__wrapIcon {
-  transform: translateX(-100%);
+  transform: translateX(-100%) rotate(360deg);
 }
 .search__filters__filter__wrap {
   display: flex;
   align-items: center;
   width: 100%;
   height: 100%;
-  transition: 200ms ease;
+  transition: 300ms ease;
 }
 .search__filters__filter__wrap__wrapIcon {
-  transition: 200ms ease;
+  transition: 300ms ease;
   display: flex;
   align-items: center;
   justify-content: center;
