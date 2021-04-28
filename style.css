@@ -116,7 +116,7 @@ a {
   transform: translateX(100%);
 }
 .search__filters__filter:hover .search__filters__filter__wrap__wrapIcon {
-  transform: translateX(-100%) rotate(360deg);
+  transform: translateX(-100%) rotate(1turn);
 }
 .search__filters__filter__wrap {
   display: flex;
@@ -537,6 +537,12 @@ a {
   }
   .footer__wrapper__column__title {
     margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .search__form__input {
+    width: 6rem;
+    text-overflow: ellipsis;
   }
 }
 .activites {
