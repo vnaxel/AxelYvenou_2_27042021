@@ -221,7 +221,7 @@ a {
 }
 .hotels__main__item__contentWrap__wrapIcons {
   position: absolute;
-  bottom: 0px;
+  bottom: 4px;
   left: 0px;
   width: 100%;
 }
@@ -254,6 +254,7 @@ a {
   transition: all 100ms ease;
   display: flex;
   height: 9rem;
+  overflow: hidden;
 }
 .hotels__populaires__item:hover {
   transform: scale(1.015);
